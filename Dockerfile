@@ -13,4 +13,5 @@ ENV PATH $PATH:$JAVA_HOME/bin:$CATALINA_HOME/lib:$CATALINA_HOME/bin
 # container listener port 
 EXPOSE 8080 
 # startup web application services by self 
+# 111111111
 CMD /usr/local/apache-tomcat-8.5.16/bin/catalina.sh run
